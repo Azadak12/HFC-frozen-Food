@@ -1,10 +1,11 @@
-
+import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import founderpic from "../assets/vecteezy_ai-generative-photo-happy-businessman-standing-with-arms_29306038.jpg"; 
 import CTO from "../assets/CTO.jpg";
 import manage from "../assets/mange.jpg";
 import "../assets/bootstrap/css/bootstrap.min.css";
-import "../Styles/TeamSectio.css"
+import "../Styles/TeamSectio.css"; 
+
 const teamMembers = [
   {
     id: 1,

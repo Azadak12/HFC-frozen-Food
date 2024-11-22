@@ -54,3 +54,60 @@
 .order-now:hover {
   background-color: #c9302c;
 }
+@media (max-width: 768px) {
+  .icon-section {
+    display: none;
+  }
+}
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.logout {
+  cursor: pointer;
+  color: #ff0000;
+}
+
+.icon-container {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.icon {
+  font-size: 20px;
+  color: #333;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+/* Hide icons on mobile */
+@media (max-width: 768px) {
+  .icon-section {
+    display: none;
+  }
+}

@@ -6,8 +6,8 @@ import { CgProfile } from "react-icons/cg";
 import { HiMenu } from "react-icons/hi";
 import { auth } from "../firebase";
 import logo from "../assets/logo-removebg-preview.png";
-import "bootstrap/dist/css/bootstrap.min.css"; // Ensure Bootstrap CSS is loaded
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensure Bootstrap JS is loaded
+import "bootstrap/dist/css/bootstrap.min.css"; 
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; 
 import "../Styles/Mynavbar.css";
 
 function MyNavbar() {
@@ -39,12 +39,12 @@ function MyNavbar() {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container-fluid">
-        {/* Logo */}
+        
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="Logo" className="navbar-logo" />
         </Link>
 
-        {/* Toggle Button for Mobile */}
+       
         <button
           className="navbar-toggler custom-toggler"
           type="button"
@@ -57,7 +57,7 @@ function MyNavbar() {
           <HiMenu size={28} />
         </button>
 
-        {/* Navbar Links */}
+    
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
@@ -110,7 +110,7 @@ function MyNavbar() {
           </ul>
         </div>
 
-        {/* Icons (Hidden on Mobile) */}
+        
         <div className="d-flex align-items-center icon-section">
           <div className="icon-container">
             <FaHeart className="icon" />

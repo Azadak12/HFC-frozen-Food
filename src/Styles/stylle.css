@@ -1,0 +1,59 @@
+.carousel-control-prev,
+        .carousel-control-next {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 2rem;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.4);
+          border-radius: 50%;
+          padding: 10px;
+          transition: background-color 0.3s ease;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .carousel-control-prev {
+          left: 10px;
+        }
+
+        .carousel-control-next {
+          right: 10px;
+        }
+
+        
+        .slider-container {
+          height: 400px;
+          max-width: 100%;
+          overflow: hidden;
+        }
+
+        .carousel-inner {
+          height: 100%;
+        }
+
+     
+        .carousel-caption {
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 15px;
+          border-radius: 10px;
+        }
+
+        .carousel-caption h3 {
+          font-size: 2rem;
+          font-weight: bold;
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .carousel-caption p {
+          font-size: 1rem;
+          font-style: italic;
+        }
+
+        
+        .carousel-item {
+          text-align: center;
+        }

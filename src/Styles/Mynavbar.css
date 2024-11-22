@@ -1,0 +1,56 @@
+.custom-navbar {
+  background: linear-gradient(to right, #ff9900, #ff5722);
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.custom-toggler {
+  border: none;
+  color: #fff;
+}
+
+.icon-container {
+  position: relative;
+  margin: 0 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: #28a745;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+.order-now {
+  background-color: #d9534f;
+  border: none;
+  font-weight: bold;
+}
+
+.order-now:hover {
+  background-color: #c9302c;
+}

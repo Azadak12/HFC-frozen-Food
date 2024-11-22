@@ -1,0 +1,30 @@
+ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+}
+ul{
+    margin-top: 10px;
+}
+.stylish-line {
+    width: 120px;
+    height: 2px;
+    background: linear-gradient(to right, #d94c4c, #999999);
+  margin-top: 5px;
+ margin-left: 2px;
+    border-radius: 2px;
+  }
+  .stylish-linee {
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(to right, #d94c4c, #999999);
+  margin-top: 5px;
+ margin-left: -3px;
+    border-radius: 2px;
+  }
+  .head{
+    margin-left: 25px;
+  }
+  a{
+    text-decoration: none;
+}

@@ -72,7 +72,6 @@ function AdminDashboard() {
           </ul>
         </Col>
 
-        {/* Main Content */}
         <Col md={{ span: 9, offset: 3 }} className="mt-4">
           <h1 className="mb-4">Admin Dashboard</h1>
           <Row>
@@ -105,7 +104,7 @@ function AdminDashboard() {
             </Col>
           </Row>
 
-          {/* Recent Orders */}
+       
           <h3>Recent Orders</h3>
           <Table striped bordered hover responsive>
             <thead>

@@ -9,7 +9,7 @@ import Login from "./Components/Login";
 import OrderHistory from "./Components/OrderHistory";
 import Deals from "./Components/Deals";
 import AdminDashboard from "./Components/AdminDashboard"; 
-import { auth } from "./firebase"; // Firebase Auth
+import { auth } from "./firebase";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         <Route path="/deals" element={<Deals />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Login" element={<Login />} />
-        {/* Conditional Rendering for AdminDashboard or OrderHistory */}
+       
         <Route
           path="/OrderHistory"
           element={

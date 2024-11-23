@@ -1,10 +1,10 @@
-// Import the functions you need from the SDKs you need
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"; // Correct function for Firestore
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyASa5JcutpGXkHgJR_dKYLQbxX61KVUhI4",
   authDomain: "hfc-frozen-food.firebaseapp.com",
@@ -15,7 +15,7 @@ const firebaseConfig = {
   measurementId: "G-K5VFFY4EG9",
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 

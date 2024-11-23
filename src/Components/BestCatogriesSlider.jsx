@@ -8,8 +8,8 @@ function BestCategoriesSlider() {
       interval={3000} 
       className='mt-5' 
       style={{
-        maxWidth: "1200px", // Set max-width for larger screens
-        margin: "0 auto", // Center the carousel horizontally
+        maxWidth: "1200px", 
+        margin: "0 auto", 
       }}
     >
       <Carousel.Item>

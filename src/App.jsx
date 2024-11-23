@@ -8,7 +8,7 @@ import Register from "./Components/Register";
 import Login from "./Components/Login";
 import OrderHistory from "./Components/OrderHistory";
 import Deals from "./Components/Deals";
-import AdminDashboard from "./Components/AdminDashboard"; // Admin Dashboard Component
+import AdminDashboard from "./Components/AdminDashboard"; 
 import { auth } from "./firebase"; // Firebase Auth
 import { useEffect, useState } from "react";
 

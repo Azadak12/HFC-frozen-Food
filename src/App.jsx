@@ -8,7 +8,7 @@ import Register from "./Components/Register";
 import Login from "./Components/Login";
 import OrderHistory from "./Components/OrderHistory";
 import Deals from "./Components/Deals";
-import AdminDashboard from "./Components/AdminDashboard"; 
+import AdminDashboard from "./Components/AdminDashboard";
 import { auth } from "./firebase";
 import { useEffect, useState } from "react";
 
@@ -22,6 +22,21 @@ function App() {
       setLoading(false);
     });
     return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    // Dynamically add the Tawk.to script
+    const script = document.createElement("script");
+    script.src = "https://embed.tawk.to/67549f454304e3196aee80c8/1ieh8sb0u";
+    script.async = true;
+    script.charset = "UTF-8";
+    script.setAttribute("crossorigin", "*");
+    document.body.appendChild(script);
+
+    // Cleanup the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
   if (loading) {
@@ -39,7 +54,6 @@ function App() {
         <Route path="/deals" element={<Deals />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Login" element={<Login />} />
-       
         <Route
           path="/OrderHistory"
           element={
